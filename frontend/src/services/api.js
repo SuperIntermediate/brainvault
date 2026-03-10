@@ -3,7 +3,7 @@
 import axios from "axios";//JavaScript library used to make HTTP requests.
 
 const API = axios.create({
-    baseURL: process.env.REACT_APP_API_URL //This sets default base URL.
+    baseURL: "https://brainvault-backend.onrender.com/api" //This sets default base URL.
     //Now whenever we call API.get("/notes") It automatically becomes "http://localhost:5000/api/notes"
 });
 
