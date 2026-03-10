@@ -1,0 +1,14 @@
+{
+  "short_name": "BrainVault",
+  "name": "BrainVault — Personal Knowledge Manager",
+  "icons": [
+    { "src": "favicon-32.png", "sizes": "32x32",   "type": "image/png" },
+    { "src": "logo192.png",    "sizes": "192x192",  "type": "image/png" },
+    { "src": "logo512.png",    "sizes": "512x512",  "type": "image/png" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0e0b1a",
+  "background_color": "#050714",
+  "description": "Your Personal Knowledge Management workspace"
+}
