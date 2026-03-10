@@ -65,7 +65,7 @@ export default function Signup() {
     } catch (e) {
       setError(e.response?.data?.message || "Google sign-up failed.");
     } finally { setLoading(false); }
-  }, [navigate]);
+  }, []);
 
   useEffect(() => {
     injectStyles();
